@@ -1,0 +1,36 @@
+<header class=" w-full text-gray py-4">
+    <div class="w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto">
+        <div class="flex items-center">
+            <div class="mx-auto w-1/4">
+                <a href="../index.html">
+                    <img src="images/logo.png" class="h-[60px]">
+                </a>
+            </div>
+            <div class="w-1/2">
+                <ul class="text-center">
+                    <li class="inline-block mr-4 ">
+                        <a href=""
+                            class="{{ request()->routeIs('welcome') ? 'text-purple-500 font-semibold' : '' }}"> Home
+                        </a>
+                    </li>
+                    <li class="inline-block mr-4">
+                        <a href=""> Browse Skills
+                        </a>
+                    </li>
+                    <li class="inline-block mr-4">
+                        <a href=""> How it Works
+                        </a>
+                    </li>
+                    <li class="inline-block mr-4">
+                        <a href="../src/views/community.html"> Community
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-1/4 text-right">
+                <a href=""
+                    class="bg-purple-600 text-center text-[#ffffff] font-medium py-2 px-4 rounded-md inline-block"> Login </a>
+            </div>
+        </div>
+    </div>
+</header>

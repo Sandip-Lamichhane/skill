@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Linkr</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    
+
+  <main>
+    <div class="bg-[#CEE1FF] min-h-screen">
+      <div id="header"></div>
+
+
+      <!--Hero Section-->
+      <section class="w-full py-5 top-12">
+        <!--Hero Text-->
+        <div class="w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto">
+          <div class="1/2 text-6xl font-bold flex items-center justify-center" id="drop-text">
+            <div class="px-2 drop delay">
+              <h1>Share Skills,</h1>
+            </div>
+            <div class="text-purple-600 drop delay">
+              <h1>Build Community</h1>
+            </div>
+          </div>
+          <!--paragraph text-->
+          <div class="block text-xl text-gray-600 p-4 w-full text-center justify-center" id="my-text">
+            <span class="block typewriter">
+              Every skill you share helps someone grow. Every connection builds a stronger community.<br>
+
+              Learn from others, teach what you know, and be part of a collaborative learning journey.
+            </span>
+          </div>
+
+        </div>
+      </section>
+
+      <!--Search Bar-->
+      <section class="w-full py-12 top-24 bottom-24">
+        <div class="w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto">
+          <form action="" method="get" class="w-full">
+            <div class="w-full flex justify-center">
+              <div
+                class="w-1/2 flex items-center border border-gray-700 rounded-lg overflow-hidden bg-white max-w-3xl shadow focus:outline-none focus:ring-2 focus:ring-purple-500">
+
+                <!-- Search Icon -->
+                <i class="fa-solid fa-magnifying-glass text-gray-400 px-3"></i>
+
+                <!-- Input -->
+                <input type="text" name="search" placeholder="What skills are you looking for?"
+                  class="w-full min-h-12 focus:outline-none" />
+
+                <!-- Button -->
+                <div
+                  class="bg-purple-600 text-white h-8 px-4  hover:bg-purple-900 transition-colors rounded mr-2 flex items-center justify-between">
+                  <button type="submit">
+                    <span class="cursor-pointer">Search</span>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!--Top Exchanged Skills-->
+      <section>
+        <div class="w-full mt-12">
+          <div class="w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto">
+            <div class="py-4 px-6 sm:px-12">
+
+              <!-- Title Section -->
+              <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-5xl font-bold text-gray-900 mb-6">
+                  Explore Top Exchanged Skills
+                </h2>
+              </div>
+              <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+                <!-- Card 1 -->
+                <div
+                  class="bg-white rounded-xl shadow transition hover:-translate-y-1 hover:shadow-xl hover:border-gray-300 hover:bg-white">
+                  <!-- Content -->
+                  <div class="p-5">
+                    <div class="flex items-center justify-center mb-3">
+                      <span
+                        class="text-sm font-medium bg-purple-600 text-white px-3 py-1 rounded-full">Programming</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Web Development Fundamentals</h3>
+                    <p class="text-gray-600 text-sm mb-4">Learn HTML, CSS, and JavaScript from
+                      scratch. Perfect for
+                      beginners who want to start their...</p>
+                    <div class="flex items-center gap-3 mb-4">
+                      <div class="w-9 h-9 rounded-full bg-gray-200"></div>
+                      <div>
+                        <p class="font-medium text-sm">Alex Chen</p>
+                        <div class="flex items-center text-xs text-gray-500 gap-2">
+                          <span>⭐ 4.9</span>
+                          <span>· San Francisco, CA</span>
+                          <span>· 2 hours</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">HTML</span>
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">CSS</span>
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">JavaScript</span>
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">+1</span>
+                    </div>
+                    <button
+                      class="w-full bg-purple-600 text-white text-sm font-semibold py-2 rounded-lg hover:bg-purple-700 transition">
+                      View Details
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                  class="bg-white rounded-xl shadow hover:shadow-xl transition hover:-translate-y-1 hover:border-gray-300 hover:bg-white">
+                  <div class="p-5">
+                    <div class="flex items-center justify-center mb-3">
+                      <span class="text-sm font-medium bg-purple-600 text-white px-3 py-1 rounded-full">Design
+                      </span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Digital Art & Illustration</h3>
+                    <p class="text-gray-600 text-sm mb-4">Master digital painting techniques using
+                      Photoshop and
+                      Procreate. From basic tools to...</p>
+                    <div class="flex items-center gap-3 mb-4">
+                      <div class="w-9 h-9 rounded-full bg-gray-200"></div>
+                      <div>
+                        <p class="font-medium text-sm">Maria Rodriguez</p>
+                        <div class="flex items-center text-xs text-gray-500 gap-2">
+                          <span>⭐ 4.8</span>
+                          <span>· Austin, TX</span>
+                          <span>· 3 hours</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">Photoshop</span>
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">Procreate</span>
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">Digital
+                        Art</span>
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">+1</span>
+                    </div>
+                    <button
+                      class="w-full bg-purple-600 text-white text-sm font-semibold py-2 rounded-lg hover:bg-purple-700 transition">
+                      View Details
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                  class="bg-white rounded-xl shadow hover:shadow-xl transition hover:-translate-y-1 hover:border-gray-300 hover:bg-white">
+                  <div class="p-5">
+                    <div class="flex items-center justify-center mb-3">
+                      <span class="text-sm font-medium bg-purple-600 text-white px-3 py-1 rounded-full">Music</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Guitar for Beginners</h3>
+                    <p class="text-gray-600 text-sm mb-4">Learn to play your favorite songs on
+                      acoustic guitar. Includes
+                      basic chords, strumming pattern...</p>
+                    <div class="flex items-center gap-3 mb-4">
+                      <div class="w-9 h-9 rounded-full bg-gray-200"></div>
+                      <div>
+                        <p class="font-medium text-sm">Jake Thompson</p>
+                        <div class="flex items-center text-xs text-gray-500 gap-2">
+                          <span>⭐ 4.7</span>
+                          <span>· Nashville, TN</span>
+                          <span>· 1 hour</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">Guitar</span>
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">Music
+                        Theory</span>
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">Chords</span>
+                      <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">+1</span>
+                    </div>
+                    <button
+                      class="w-full bg-purple-600 text-white text-sm font-semibold py-2 rounded-lg hover:bg-purple-700 transition">
+                      View Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button type="submit"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!--How It Works-->
+      <section>
+        <div class="w-full">
+          <div class="w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto">
+            <section class="min-h-screen bg-[#CEE1FF] flex items-center justify-center">
+              <div class="w-full max-w-7xl rounded-[20px]">
+                <div class="px-6 sm:px-12">
+                  <!-- Title Section -->
+                  <div class="text-center mb-16">
+                    <h2 class="text-3xl sm:text-5xl font-bold text-gray-900 mb-6">
+                      How It Works
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                      Getting started is simple and straightforward
+                    </p>
+                  </div>
+
+                  <!-- Numbered Line -->
+                  <div class="flex justify-center mb-16">
+                    <div class="flex items-center space-x-4">
+                      <div
+                        class="w-[50px] h-[50px] rounded-full bg-gradient-to-br from-purple-500 to-purple-800 flex items-center justify-center text-white font-bold text-xl shadow-[0_5px_15px_rgba(59,130,246,0.3)]">
+                        1
+                      </div>
+                      <div class="w-16 h-1 bg-gradient-to-r from-purple-500 to-indigo-500">
+                      </div>
+                      <div
+                        class="w-[50px] h-[50px] rounded-full bg-gradient-to-br from-purple-500 to-purple-800 flex items-center justify-center text-white font-bold text-xl shadow-[0_5px_15px_rgba(59,130,246,0.3)]">
+                        2
+                      </div>
+                      <div class="w-16 h-1 bg-gradient-to-r from-purple-500 to-indigo-500">
+                      </div>
+                      <div
+                        class="w-[50px] h-[50px] rounded-full bg-gradient-to-br from-purple-500 to-purple-800 flex items-center justify-center text-white font-bold text-xl shadow-[0_5px_15px_rgba(59,130,246,0.3)]">
+                        3
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Steps Grid -->
+                  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Step 1 -->
+                    <div
+                      class="transition-all duration-300 ease-in-out rounded-2xl p-8 h-full bg-gray-50 border border-gray-200 hover:-translate-y-1 hover:shadow-xl hover:border-gray-300 hover:bg-white">
+                      <div class="flex justify-center mb-6">
+                        <div class="bg-purple-100 rounded-xl p-4">
+                          <i class="fas fa-search text-purple-600 text-3xl"></i>
+                        </div>
+                      </div>
+                      <h3 class="text-2xl font-bold text-center text-gray-900 mb-4">
+                        Browse Skills
+                      </h3>
+                      <p class="text-gray-600 text-center">
+                        Explore thousands of skills offered by talented individuals in your
+                        community.
+                      </p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div
+                      class="transition-all duration-300 ease-in-out rounded-2xl p-8 h-full bg-gray-50 border border-gray-200 hover:-translate-y-1 hover:shadow-xl hover:border-gray-300 hover:bg-white">
+                      <div class="flex justify-center mb-6">
+                        <div class="bg-purple-100 rounded-xl p-4">
+                          <i class="fas fa-handshake text-purple-600 text-3xl"></i>
+                        </div>
+                      </div>
+                      <h3 class="text-2xl font-bold text-center text-gray-900 mb-4">
+                        Connect & Book
+                      </h3>
+                      <p class="text-gray-600 text-center">
+                        Find the perfect match and book a session directly through our
+                        platform.
+                      </p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div
+                      class="transition-all duration-300 ease-in-out rounded-2xl p-8 h-full bg-gray-50 border border-gray-200 hover:-translate-y-1 hover:shadow-xl hover:border-gray-300 hover:bg-white">
+                      <div class="flex justify-center mb-6">
+                        <div class="bg-purple-100 rounded-xl p-4">
+                          <i class="fas fa-graduation-cap text-purple-600 text-3xl"></i>
+                        </div>
+                      </div>
+                      <h3 class="text-2xl font-bold text-center text-gray-900 mb-4">
+                        Learn & Grow
+                      </h3>
+                      <p class="text-gray-600 text-center">
+                        Attend your session and start your journey of learning something
+                        new.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <div id="footer"></div>
+  <script type="module" src="main.ts"></script>
+</body>
+
+</html>
