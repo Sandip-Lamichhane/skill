@@ -12,7 +12,41 @@
 <body>
 
     <div class="bg-[#CEE1FF] font-sans p-4 md:p-8">
-        <div id="header"></div>
+        <header class=" w-full text-gray py-4">
+    <div class="w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto">
+        <div class="flex items-center">
+            <div class="mx-auto w-1/4">
+                <a href="../index.html">
+                    <img src="images/logo.png" class="h-[60px]">
+                </a>
+            </div>
+            <div class="w-1/2">
+                <ul class="text-center">
+                    <li class="inline-block mr-4 ">
+                        <a href="../index.html"> Home
+                        </a>
+                    </li>
+                    <li class="inline-block mr-4">
+                        <a href="../browse.html"> Browse Skills
+                        </a>
+                    </li>
+                    <li class="inline-block mr-4">
+                        <a href="../about.html"> How it Works
+                        </a>
+                    </li>
+                    <li class="inline-block mr-4">
+                        <a href="../community.html"> Community
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-1/4 text-right">
+                <a href="../login.html"
+                    class="bg-purple-600 text-center text-[#ffffff] font-medium py-2 px-4 rounded-md inline-block"> Login </a>
+            </div>
+        </div>
+    </div>
+</header>
 
         <!-- Header -->
         <div class="text-center mb-6">
@@ -220,8 +254,64 @@
         </div>
     </div>
 
-    <div id="footer"></div>
-    <script type="module" src="main.ts"></script>
+    <div class="w-full bg-[#1F2937] text-gray-800">
+  <footer>
+    <div class="max-w-7xl mx-auto px-6 py-6"> <!-- was py-12 -->
+      <div class="flex items-center justify-between">
+
+        <!-- Brand Info -->
+        <div>
+          <div class="flex items-center space-x-2">
+            <div
+              class="bg-purple-600 text-white font-semibold rounded-full h-8 w-8 flex items-center justify-center">
+              SL</div>
+            <span class="text-lg text-purple-500 font-bold">Skillinkr</span>
+          </div>
+
+          <div class="mt-2 flex items-center text-sm text-green-600 space-x-1"> <!-- was mt-4 -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-green-500" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.707a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd" />
+            </svg>
+            <span>Trusted by 10,000+ users</span>
+          </div>
+        </div>
+
+        <!-- Platform Links -->
+        <div>
+          <h3 class="font-bold text-white mb-3">Platform</h3> <!-- was mb-4 -->
+          <ul class="space-y-1 text-white"> <!-- was space-y-2 -->
+            <li><a href="../browse.html" class="hover:text-purple-600 transition">Browse Skills</a></li>
+            <li><a href="../about.html" class="hover:text-purple-600 transition">How It Works</a></li>
+            <li><a href="../community.html" class="hover:text-purple-600 transition">Community</a></li>
+          </ul>
+        </div>
+
+        <!-- Support Links -->
+        <div>
+          <h3 class="font-bold text-white mb-3">Support</h3>
+          <ul class="space-y-1 text-white">
+            <li><a href="#" class="hover:text-purple-600 transition">Help Center</a></li>
+            <li><a href="#" class="hover:text-purple-600 transition">Safety</a></li>
+            <li><a href="#" class="hover:text-purple-600 transition">Contact Us</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="mt-6 border-t pt-4 flex items-center justify-between text-sm text-white"> <!-- reduced mt/pt/text size -->
+        <p>&copy; 2025 Skillinkr. All rights reserved.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-purple-600">Privacy Policy</a>
+          <a href="#" class="hover:text-purple-600">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
 </body>
 
 </html>
