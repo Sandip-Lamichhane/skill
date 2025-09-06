@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Skills</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+    <div class="bg-[#CEE1FF] font-sans p-4 md:p-8">
+        <div id="header"></div>
+
+        <!-- Header -->
+        <div class="text-center mb-6">
+            <h1 class="text-purple-600 text-2xl md:text-3xl font-bold mb-1">Browse Skills</h1>
+            <p class="text-purple-600 text-sm md:text-base">
+                Discover amazing skills from talented individuals in your community
+            </p>
+        </div>
+
+        <!-- Main content -->
+        <div class="flex flex-col md:flex-row gap-6 md:gap-8">
+
+            <!-- Filters -->
+            <div class="w-full md:w-1/4 bg-white p-6 rounded-lg shadow">
+                <h2 class="font-semibold mb-4">Filters</h2>
+
+                <div class="mb-4">
+                    <label class="block mb-1 font-medium">Category</label>
+                    <select class="w-full border border-gray-300 rounded px-3 py-2">
+                        <option>All Categories</option>
+                        <option>Programming</option>
+                        <option>Design</option>
+                        <option>Marketing</option>
+                    </select>
+                </div>
+
+                <div class="mb-4">
+                    <label class="block mb-1 font-medium">Price Range</label>
+                    <select class="w-full border border-gray-300 rounded px-3 py-2">
+                        <option>Any Price</option>
+                        <option>$0 - $50</option>
+                        <option>$50 - $100</option>
+                        <option>$100+</option>
+                    </select>
+                </div>
+
+                <div class="mb-4">
+                    <label class="block mb-1 font-medium">Duration</label>
+                    <select class="w-full border border-gray-300 rounded px-3 py-2">
+                        <option>Any Duration</option>
+                        <option>1-2 hours</option>
+                        <option>3-5 hours</option>
+                        <option>5+ hours</option>
+                    </select>
+                </div>
+
+                <div class="mb-4">
+                    <label class="block mb-1 font-medium">Location</label>
+                    <select class="w-full border border-gray-300 rounded px-3 py-2">
+                        <option>Any Location</option>
+                        <option>San Francisco, CA</option>
+                        <option>Austin, TX</option>
+                        <option>New York, NY</option>
+                    </select>
+                </div>
+
+                <button class="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700">
+                    Reset Filters
+                </button>
+            </div>
+
+            <!-- Skills List -->
+            <div class="flex-1">
+                <!-- Search & sort -->
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-4">
+                    <input type="text" placeholder="Search skills, tags, or descriptions..."
+                        class="bg-white w-full md:w-1/2 border border-gray-300 rounded px-3 py-2">
+                    <select class="bg-white border border-gray-300 rounded px-3 py-2 w-full md:w-auto">
+                        <option>Most Relevant</option>
+                        <option>Highest Rated</option>
+                        <option>Lowest Price</option>
+                    </select>
+                </div>
+
+                <p class="mb-4 text-gray-600">6 skills found</p>
+
+                <!-- Cards Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                    <!-- Card 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <span class="text-xs bg-gray-200 px-2 py-1 rounded-full">Programming</span>
+                        <h3 class="text-lg font-semibold mt-2 mb-2 text-purple-600">Web Development Fundamentals</h3>
+                        <p class="text-gray-600 mb-4">Learn HTML, CSS, and JavaScript from scratch. Perfect for
+                            beginners who want to start their coding journey with hands-on projects.</p>
+                        <div class="flex items-center justify-between text-gray-500 text-sm mb-4">
+                            <div>
+                                <span>Alex Chen</span> • ⭐ 4.9 • San Francisco, CA • 2 hours
+                            </div>
+                        </div>
+                        <div class="flex gap-2 text-xs mb-4 flex-wrap">
+                            <span class="bg-gray-200 px-2 py-1 rounded">HTML</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">CSS</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">JavaScript</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">+1</span>
+                        </div>
+                        <button class="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700">View
+                            Details</button>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <span class="text-xs bg-gray-200 px-2 py-1 rounded-full">Design</span>
+                        <h3 class="text-lg font-semibold mt-2 mb-2 text-purple-600">Digital Art & Illustration</h3>
+                        <p class="text-gray-600 mb-4">Master digital painting techniques using Photoshop and Procreate.
+                            From basic tools to advanced composition and illustration skills.</p>
+                        <div class="flex items-center justify-between text-gray-500 text-sm mb-4">
+                            <div>
+                                <span>Maria Rodriguez</span> • ⭐ 4.8 • Austin, TX • 3 hours
+                            </div>
+                        </div>
+                        <div class="flex gap-2 text-xs mb-4 flex-wrap">
+                            <span class="bg-gray-200 px-2 py-1 rounded">Photoshop</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">Procreate</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">Digital Art</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">+1</span>
+                        </div>
+                        <button class="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700">View
+                            Details</button>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <span class="text-xs bg-gray-200 px-2 py-1 rounded-full">Marketing</span>
+                        <h3 class="text-lg font-semibold mt-2 mb-2 text-purple-600">Social Media Marketing</h3>
+                        <p class="text-gray-600 mb-4">Learn strategies for effective social media campaigns to grow
+                            brand awareness and engagement across platforms.</p>
+                        <div class="flex items-center justify-between text-gray-500 text-sm mb-4">
+                            <div>
+                                <span>James Smith</span> • ⭐ 4.7 • New York, NY • 2 hours
+                            </div>
+                        </div>
+                        <div class="flex gap-2 text-xs mb-4 flex-wrap">
+                            <span class="bg-gray-200 px-2 py-1 rounded">Facebook</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">Instagram</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">SEO</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">+2</span>
+                        </div>
+                        <button class="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700">View
+                            Details</button>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <span class="text-xs bg-gray-200 px-2 py-1 rounded-full">Programming</span>
+                        <h3 class="text-lg font-semibold mt-2 mb-2 text-purple-600">Python for Data Science</h3>
+                        <p class="text-gray-600 mb-4">Learn Python basics and apply them in data analysis, visualization,
+                            and machine learning projects for real-world applications.</p>
+                        <div class="flex items-center justify-between text-gray-500 text-sm mb-4">
+                            <div>
+                                <span>Sophia Lee</span> • ⭐ 4.9 • San Francisco, CA • 5 hours
+                            </div>
+                        </div>
+                        <div class="flex gap-2 text-xs mb-4 flex-wrap">
+                            <span class="bg-gray-200 px-2 py-1 rounded">Python</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">Data Analysis</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">Machine Learning</span>
+                        </div>
+                        <button class="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700">View
+                            Details</button>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <span class="text-xs bg-gray-200 px-2 py-1 rounded-full">Design</span>
+                        <h3 class="text-lg font-semibold mt-2 mb-2 text-purple-600">UI/UX Design Basics</h3>
+                        <p class="text-gray-600 mb-4">Learn how to create intuitive user interfaces and improve user
+                            experience with practical UI/UX design principles.</p>
+                        <div class="flex items-center justify-between text-gray-500 text-sm mb-4">
+                            <div>
+                                <span>Daniel Kim</span> • ⭐ 4.8 • Austin, TX • 4 hours
+                            </div>
+                        </div>
+                        <div class="flex gap-2 text-xs mb-4 flex-wrap">
+                            <span class="bg-gray-200 px-2 py-1 rounded">Figma</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">Wireframing</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">Prototyping</span>
+                        </div>
+                        <button class="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700">View
+                            Details</button>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <span class="text-xs bg-gray-200 px-2 py-1 rounded-full">Marketing</span>
+                        <h3 class="text-lg font-semibold mt-2 mb-2 text-purple-600">SEO Strategies for Beginners</h3>
+                        <p class="text-gray-600 mb-4">Understand how to optimize websites for search engines, increase
+                            traffic, and improve online visibility for small businesses.</p>
+                        <div class="flex items-center justify-between text-gray-500 text-sm mb-4">
+                            <div>
+                                <span>Emma Johnson</span> • ⭐ 4.6 • New York, NY • 3 hours
+                            </div>
+                        </div>
+                        <div class="flex gap-2 text-xs mb-4 flex-wrap">
+                            <span class="bg-gray-200 px-2 py-1 rounded">SEO</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">Google Analytics</span>
+                            <span class="bg-gray-200 px-2 py-1 rounded">Content Marketing</span>
+                        </div>
+                        <button class="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700">View
+                            Details</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+    <script type="module" src="main.ts"></script>
+</body>
+
+</html>

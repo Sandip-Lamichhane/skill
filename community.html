@@ -7,46 +7,48 @@
     <title>Skill Linkr</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
-    <div class=" min-h-screen overflow-x-hidden overflow-y-auto">
+    <div class="bg-[#CEE1FF] min-h-screen overflow-x-hidden overflow-y-auto">
+        <div id="header"></div>
         <div class="w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto">
             <header class="text-center pt-8">
                 <div
-                    class="font-bold text-tpurple text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center leading-tight">
+                    class="font-bold text-[#6A1B9A] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center leading-tight">
                     <span>Some People Learn.</span>
                     <p class="mt-2">Other Discover.</p>
                 </div>
-                <div class="mt-6 text-tblack text-lg sm:text-xl md:text-2xl lg:text-3xl text-center leading-tight">
+                <div class="mt-6 text-[#333333] text-lg sm:text-xl md:text-2xl lg:text-3xl text-center leading-tight">
                     <span>SkillLinkr isn’t Just a Login Screen-</span>
                     <p class="mt-2">it’s where your next “aha!” begins.</p>
                 </div>
             </header>
 
-            <!-- middle frame  section with profiles -->
+            <!-- middle frame section with profiles -->
             <div class="pt-12 w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto">
                 <section
                     class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8 rounded-[12px] max-w-[1200px] mx-auto px-4 md:px-8">
 
                     <!-- first profile -->
-                    <div class="bg-boxcolor max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
+                    <div class="bg-[#F3E5F5] max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
                         style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
                         <div class="flex items-center space-x-2">
                             <img src="/Lucia Torres.png" alt="Lucia Torres" class="h-8 rounded-md">
-                            <div class="font-medium text-tblack">Lucia Torres</div>
+                            <div class="font-medium text-[#333333]">Lucia Torres</div>
                         </div>
-                        <div class="bg-jpurple text-white text-xs font-semibold px-3 py-1 rounded-full w-fit">
+                        <div class="bg-[#9C4DC2] text-[#FFFFFF] text-xs font-semibold px-3 py-1 rounded-full w-fit">
                             Web Designing
                         </div>
                         <p
-                            class="text-tblack leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
+                            class="text-[#333333] leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
                             "My first portfolio site finally looks pro. SkillLinkr made layout logic click".
                         </p>
                         <div class="flex-grow"></div>
-                        <div class="flex items-center space-x-1 self-end text-tblack w-full max-w-full overflow-hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-tblack" fill="none"
+                        <div
+                            class="flex items-center space-x-1 self-end text-[#333333] w-full max-w-full overflow-hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#333333]" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M17 8h2a2 2 0 012 2v8a2 2 0 01-2 2H7l-4 4V10a2 2 0 012-2h2" />
@@ -57,22 +59,23 @@
 
 
                     <!-- second profile -->
-                    <div class="bg-boxcolor max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
+                    <div class="bg-[#F3E5F5] max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
                         style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
                         <div class="flex items-center space-x-2">
                             <img src="/Chen Zhao.png" alt="Chen Zhao" class="h-8 rounded-md">
-                            <div class="font-medium text-tblack">Chen Zhao</div>
+                            <div class="font-medium text-[#333333]">Chen Zhao</div>
                         </div>
-                        <div class="bg-jpurple text-white text-xs font-semibold px-3 py-1 rounded-full w-fit">
+                        <div class="bg-[#9C4DC2] text-[#FFFFFF] text-xs font-semibold px-3 py-1 rounded-full w-fit">
                             Digital Marketing
                         </div>
                         <p
-                            class="text-tblack leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
+                            class="text-[#333333] leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
                             "From zero engagement to 10K followers thanks for decoding algorithms with clarity!"
                         </p>
                         <div class="flex-grow"></div>
-                        <div class="flex items-center space-x-1 self-end text-tblack w-full max-w-full overflow-hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-tblack" fill="none"
+                        <div
+                            class="flex items-center space-x-1 self-end text-[#333333] w-full max-w-full overflow-hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#333333]" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M17 8h2a2 2 0 012 2v8a2 2 0 01-2 2H7l-4 4V10a2 2 0 012-2h2" />
@@ -83,22 +86,23 @@
 
 
                     <!-- third profile -->
-                    <div class="bg-boxcolor max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
+                    <div class="bg-[#F3E5F5] max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
                         style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
                         <div class="flex items-center space-x-2">
                             <img src="/Tomoko Arai.png" alt="Tomoko Arai" class="h-8 rounded-md">
-                            <div class="font-medium text-tblack">Tomoko Arai</div>
+                            <div class="font-medium text-[#333333]">Tomoko Arai</div>
                         </div>
-                        <div class="bg-jpurple text-white text-xs font-semibold px-3 py-1 rounded-full w-fit">
+                        <div class="bg-[#9C4DC2] text-[#FFFFFF] text-xs font-semibold px-3 py-1 rounded-full w-fit">
                             AI & Tech
                         </div>
                         <p
-                            class="text-tblack leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
+                            class="text-[#333333] leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
                             "I applied what I learned here and trained my first model - now I get why it matters."
                         </p>
                         <div class="flex-grow"></div>
-                        <div class="flex items-center space-x-1 self-end text-tblack w-full max-w-full overflow-hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-tblack" fill="none"
+                        <div
+                            class="flex items-center space-x-1 self-end text-[#333333] w-full max-w-full overflow-hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#333333]" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M17 8h2a2 2 0 012 2v8a2 2 0 01-2 2H7l-4 4V10a2 2 0 012-2h2" />
@@ -108,22 +112,23 @@
                     </div>
 
                     <!-- fourth profile -->
-                    <div class="bg-boxcolor max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
+                    <div class="bg-[#F3E5F5] max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
                         style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
                         <div class="flex items-center space-x-2">
                             <img src="/Ananya Mehta.png" alt="Ananya Mehta" class="h-8 rounded-md">
-                            <div class="font-medium text-tblack">Ananya Mehta</div>
+                            <div class="font-medium text-[#333333]">Ananya Mehta</div>
                         </div>
-                        <div class="bg-jpurple text-white text-xs font-semibold px-3 py-1 rounded-full w-fit">
+                        <div class="bg-[#9C4DC2] text-[#FFFFFF] text-xs font-semibold px-3 py-1 rounded-full w-fit">
                             Cooking
                         </div>
                         <p
-                            class="text-tblack leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
+                            class="text-[#333333] leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
                             "I finally understood planting, technique, and the soul behind the recipe."
                         </p>
                         <div class="flex-grow"></div>
-                        <div class="flex items-center space-x-1 self-end text-tblack w-full max-w-full overflow-hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-tblack" fill="none"
+                        <div
+                            class="flex items-center space-x-1 self-end text-[#333333] w-full max-w-full overflow-hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#333333]" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M17 8h2a2 2 0 012 2v8a2 2 0 01-2 2H7l-4 4V10a2 2 0 012-2h2" />
@@ -133,22 +138,23 @@
                     </div>
 
                     <!-- fifth profile -->
-                    <div class="bg-boxcolor max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
+                    <div class="bg-[#F3E5F5] max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
                         style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
                         <div class="flex items-center space-x-2">
                             <img src="/Maya Lin.png" alt="Maya Lin" class="h-8 rounded-md">
-                            <div class="font-medium text-tblack">Maya Lin</div>
+                            <div class="font-medium text-[#333333]">Maya Lin</div>
                         </div>
-                        <div class="bg-jpurple text-white text-xs font-semibold px-3 py-1 rounded-full w-fit">
+                        <div class="bg-[#9C4DC2] text-[#FFFFFF] text-xs font-semibold px-3 py-1 rounded-full w-fit">
                             Photography
                         </div>
                         <p
-                            class="text-tblack leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
+                            class="text-[#333333] leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
                             "I stopped taking pictures and started telling stories - thank you."
                         </p>
                         <div class="flex-grow"></div>
-                        <div class="flex items-center space-x-1 self-end text-tblack w-full max-w-full overflow-hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-tblack" fill="none"
+                        <div
+                            class="flex items-center space-x-1 self-end text-[#333333] w-full max-w-full overflow-hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#333333]" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M17 8h2a2 2 0 012 2v8a2 2 0 01-2 2H7l-4 4V10a2 2 0 012-2h2" />
@@ -158,22 +164,23 @@
                     </div>
 
                     <!-- sixth profile -->
-                    <div class="bg-boxcolor max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
+                    <div class="bg-[#F3E5F5] max-w-[400px] min-h-[340px] max-h-[400px] rounded-lg p-5 flex flex-col space-y-3 overflow-hidden"
                         style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
                         <div class="flex items-center space-x-2">
                             <img src="/David Brooks.png" alt="David Brooks" class="h-8 rounded-md">
-                            <div class="font-medium text-tblack">David Brooks</div>
+                            <div class="font-medium text-[#333333]">David Brooks</div>
                         </div>
-                        <div class="bg-jpurple text-white text-xs font-semibold px-3 py-1 rounded-full w-fit">
+                        <div class="bg-[#9C4DC2] text-[#FFFFFF] text-xs font-semibold px-3 py-1 rounded-full w-fit">
                             Research Skill
                         </div>
                         <p
-                            class="text-tblack leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
+                            class="text-[#333333] leading-relaxed flex text-base sm:text-lg md:text-xl lg:text-2xl break-words">
                             "I stopped skimming and started investigating - SkillLinkr sharpened how I think."
                         </p>
                         <div class="flex-grow"></div>
-                        <div class="flex items-center space-x-1 self-end text-tblack w-full max-w-full overflow-hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-tblack" fill="none"
+                        <div
+                            class="flex items-center space-x-1 self-end text-[#333333] w-full max-w-full overflow-hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#333333]" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M17 8h2a2 2 0 012 2v8a2 2 0 01-2 2H7l-4 4V10a2 2 0 012-2h2" />
@@ -187,9 +194,9 @@
             <!-- end of middle frame section with button -->
             <a href="">
                 <div
-                    class="mt-12 mb-2 flex flex-col items-center justify-center rounded-[12px] max-w-[220px] sm:max-w-[300px] md:max-w-[400px] w-full bg-jpurple py-2 sm:py-3 md:py-4 mx-auto shadow-lg px-4">
+                    class="mt-12 mb-2 flex flex-col items-center justify-center rounded-[12px] max-w-[220px] sm:max-w-[300px] md:max-w-[400px] w-full bg-[#9C4DC2] py-2 sm:py-3 md:py-4 mx-auto shadow-lg px-4">
                     <p
-                        class="text-white text-base sm:text-lg md:text-xl font-semibold w-full text-center flex items-center justify-center gap-4">
+                        class="text-[#FFFFFF] text-base sm:text-lg md:text-xl font-semibold w-full text-center flex items-center justify-center gap-4">
                         Unlock SkillLinkr
                         <img src="https://cdn-icons-png.flaticon.com/512/9847/9847407.png" alt="Arrow Icon"
                             class="w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10" />
@@ -198,6 +205,8 @@
             </a>
         </div>
     </div>
+    <div id="footer"></div>
+  <script type="module" src="main.ts"></script>
 </body>
 
 </html>
